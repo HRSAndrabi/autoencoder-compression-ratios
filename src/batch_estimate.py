@@ -44,7 +44,7 @@ for hl in [2, 4, 8, 16, 32, 64, 128]:
 	spec = base_spec
 	spec["name"] = f"hl_{hl}_bias"
 	spec["layers"][1]["nodes"] = hl
-	spec["layers"]["bias"] = True
+	spec["bias"] = True
 	model = AutoEncoder(spec, 0.05)
 	model.train(instances=x_train, epochs=50)
 	model.save(dir_path="./src/models/")
