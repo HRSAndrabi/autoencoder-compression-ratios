@@ -50,6 +50,7 @@ class AutoEncoder:
 				)
 
 			self.spec = spec
+			self.spec["loss"] = []
 			self.learning_rate = learning_rate
 			
 			for i, layer in enumerate(spec["layers"]):
@@ -68,11 +69,12 @@ class AutoEncoder:
 						)
 			self.model_summary()
 	
-	def train(self, instances:list, epochs:int=1) -> None:
+	def train(self, train_instances:list, test_instances:list, epochs:int=1) -> None:
 		"""Trains model using input instances and labels.
 
 		Args:
-			instances (list): tensor of input instances.
+			train_instances (list): tensor of input instances.
+			test_instances (list): tensor of test instances.
 			epochs (int, optional): number of epochs for which to
 			train the model. Defaults to 1.
 		"""
@@ -83,12 +85,16 @@ class AutoEncoder:
 		]))
 		for epoch in range(epochs):
 			print(f"Epoch: {epoch}/{epochs}")
-			for i, instance in enumerate(instances):
-				if (((i+1)/len(instances)) * 100) % 25 == 0:
-					print(f"Progress: {((i+1)/len(instances)) * 100}%")
+			for i, instance in enumerate(train_instances):
+				if (((i+1)/len(train_instances)) * 100) % 25 == 0:
+					print(f"Progress: {((i+1)/len(train_instances)) * 100}%")
 				
 				activations = self.forward_pass(instance)
 				self.backpropogate(instance, activations)
+			
+			self.spec["loss"].append(
+				self.evaluate(test_instances)
+			)
 
 	def forward_pass(self, instance:list) -> list:
 		"""Conducts a forward pass through the model,
@@ -158,6 +164,27 @@ class AutoEncoder:
 			ax.xaxis.set_visible(False)
 			ax.yaxis.set_visible(False)
 			im = ax.imshow(np.array(img, ndmin=2).T.reshape(28,28), cmap = plt.get_cmap("gray"))  
+	
+		
+	def evaluate(self, instances:list) -> float:
+		"""Encodes and decodes a set of instances and calculates reconstruction
+		errors as mean-squared error of pixel value deviations.
+
+		Args:
+			instance (list): instance for which to backpropogate.
+
+		Returns:
+			float: average mean-squared error.
+		"""
+		errors = []
+		for instance in instances:
+			activations = self.forward_pass(instance)
+			prediction = activations[-1]["activations"]
+			errors.append((np.square(instance - prediction)).mean(axis=0))
+
+		avg_mse = np.asarray(errors).mean()
+		print("Average MSE: {}".format(avg_mse))
+		return avg_mse
 
 	def save(self, dir_path:str) -> None:
 		"""Writes trained model spec to json.
@@ -169,25 +196,24 @@ class AutoEncoder:
 			json.dump(self.spec, f, cls=NumpyEncoder)
 			print(f"Model saved to {dir_path}{self.spec['name']}.json.")
 
-	def load(self, path_to_spec:str) -> dict:
+	def load(self, path_to_spec:str, print_summary:bool=True) -> dict:
 		"""Loads in a trained model from json specification file.
 
 		Args:
 			path_to_spec (str): path to json specification file.
+			print_summary (bool, optional): whether or not to print
+			summary of model when it is loaded. Defaults to True.
 
 		Returns:
 			dict: trained model specification.
 		"""
-		print(f"Loading model from: {path_to_spec} ...")
 		with open(path_to_spec) as f:
 			spec = json.load(f)
 			for i, layer in enumerate(spec["layers"][:-1]):
 				spec["layers"][i]["weights"] = np.asarray(spec["layers"][i]["weights"])
 			self.spec = spec
-			self.model_summary()
-	
-	def evaluate(self, instances, labels):
-		pass
+			if print_summary:
+				self.model_summary()
 
 	def model_summary(self):
 		print("\n".join([
