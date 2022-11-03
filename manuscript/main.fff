@@ -1,0 +1,32 @@
+\begin{figure}
+    \caption{Backtesting performance of the `core\_distraction' strategy}
+\label{fig:core-distraction}
+\includegraphics[width=1.0\textwidth]{graphics/core_distraction_equity.pdf}
+    \textbf{Notes}: Peformance of the `core\_distraction' strategy over backtesting window from 1 January 2010 to 31 December 2019; `core\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement.
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+    \caption{Backtesting performance of the `related\_distraction' strategy}
+\label{fig:related-distraction}
+\includegraphics[width=1.0\textwidth]{graphics/related_distraction_equity.pdf}
+    \textbf{Notes}: Peformance of the `related\_distraction' strategy over backtesting window from 1 January 2010 to 31 December 2019;  `related\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in the same industry sector as the originating asset of the target announcement. 
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+    \caption{Backtesting performance of the `unrelated\_distraction' strategy}
+\label{fig:unrelated-distraction}
+\includegraphics[width=1.0\textwidth]{graphics/related_distraction_equity.pdf}
+    \textbf{Notes}: Peformance of the `unrelated\_distraction' strategy over backtesting window from 1 January 2010 to 31 December 2019; `unrelated\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in a different industry sector as the originating asset of the target announcement. 
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+    \caption{Backtesting performance of all information supersaturation trading strategies}
+\label{fig:all-strategies}
+\includegraphics[width=1.0\textwidth]{graphics/all_strategies_equity.pdf}
+    \textbf{Notes}: Peformance of all tested trading strategy over backtesting window from 1 January 2010 to 31 December 2019.`core\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement;
+`related\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in the same industry sector as the originating asset of the target announcement;
+`unrelated\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in a different industry sector as the originating asset of the target announcement. 
+\end{figure}

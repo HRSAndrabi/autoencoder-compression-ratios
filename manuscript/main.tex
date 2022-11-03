@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[left=1.5in, right=1.5in, top=1in, bottom=1in, includefoot]{geometry}
+\usepackage{titling}
+\usepackage{lipsum}
+\usepackage{subfiles} 
+\usepackage{setspace}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue,urlcolor=black,bookmarks=false,hypertexnames=true]{hyperref} 
+% \usepackage{float}
+\usepackage[nomarkers]{endfloat}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{caption}
+\captionsetup{
+	format=plain,
+	justification=raggedright,
+	singlelinecheck=false
+}
+\usepackage{xurl}
+\usepackage{csquotes}
+\usepackage{hyphenat}
+\usepackage{amsmath}
+
+\renewcommand{\baselinestretch}{1.15} 
+\renewcommand{\efloatseparator}{\vfill}
+
+% \pretitle{\begin{center}\Huge\bfseries}
+\posttitle{\par\end{center}\vskip 2em}
+\title{Exploiting information supersaturation in financial markets}
+\author{Hassan R. S. Andrabi}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\setstretch{1.0}
+\subfile{sections/abstract}
+\end{abstract}
+
+\section{Introduction}\label{sec:introduction}
+\subfile{sections/introduction}
+
+\section{Experimental method}\label{sec:experimental-method}
+\subfile{sections/experimental-method}
+
+\section{Results}\label{sec:results}
+\subfile{sections/results}
+
+\section{Conclusion}\label{sec:results}
+\subfile{sections/conclusion}
+
+\newpage
+
+\bibliography{main}
+\bibliographystyle{plainnat}
+
+\end{document}
