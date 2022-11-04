@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,13 @@ Zhengxue Cheng, Heming Sun, Masaru Takeuchi, and Jiro Katto.
 \newblock Deep convolutional autoencoder-based lossy image compression.
 \newblock In \emph{2018 Picture Coding Symposium (PCS)}, pages 253--257. IEEE,
   2018.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and
+  Haffner]{lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2324, 1998.
 
 \bibitem[Mittal and Vetter(2015)]{mittal2015survey}
 Sparsh Mittal and Jeffrey~S Vetter.

@@ -1,32 +1,14 @@
 \begin{figure}
-    \caption{Backtesting performance of the `core\_distraction' strategy}
-\label{fig:core-distraction}
-\includegraphics[width=1.0\textwidth]{graphics/core_distraction_equity.pdf}
-    \textbf{Notes}: Peformance of the `core\_distraction' strategy over backtesting window from 1 January 2010 to 31 December 2019; `core\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement.
+    \caption{Examples of MNIST instances}
+\label{fig:instance-examples}
+\includegraphics[width=1.0\textwidth]{graphics/instance_examples.pdf}
+    \textbf{Notes}: Example instances from the MNIST dataset. Each instance is normalised in grey-scale (0-255), and aligned by translating the centre of pixel-mass to be positioned at the centre of a 28x28 pixel grid.
 \end{figure}
 \efloatseparator
  
 \begin{figure}
-    \caption{Backtesting performance of the `related\_distraction' strategy}
-\label{fig:related-distraction}
-\includegraphics[width=1.0\textwidth]{graphics/related_distraction_equity.pdf}
-    \textbf{Notes}: Peformance of the `related\_distraction' strategy over backtesting window from 1 January 2010 to 31 December 2019;  `related\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in the same industry sector as the originating asset of the target announcement. 
-\end{figure}
-\efloatseparator
- 
-\begin{figure}
-    \caption{Backtesting performance of the `unrelated\_distraction' strategy}
-\label{fig:unrelated-distraction}
-\includegraphics[width=1.0\textwidth]{graphics/related_distraction_equity.pdf}
-    \textbf{Notes}: Peformance of the `unrelated\_distraction' strategy over backtesting window from 1 January 2010 to 31 December 2019; `unrelated\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in a different industry sector as the originating asset of the target announcement. 
-\end{figure}
-\efloatseparator
- 
-\begin{figure}
-    \caption{Backtesting performance of all information supersaturation trading strategies}
-\label{fig:all-strategies}
-\includegraphics[width=1.0\textwidth]{graphics/all_strategies_equity.pdf}
-    \textbf{Notes}: Peformance of all tested trading strategy over backtesting window from 1 January 2010 to 31 December 2019.`core\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement;
-`related\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in the same industry sector as the originating asset of the target announcement;
-`unrelated\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in a different industry sector as the originating asset of the target announcement. 
+    \caption{Distribution of classes in MNIST dataset}
+\label{fig:class-distributions}
+\includegraphics[width=1.0\textwidth]{graphics/class_distribution.pdf}
+    \textbf{Notes}: Class distribution of digit instances (0 - 9) in the full MNIST dataset, across both training (N=60,000) and validation (N=10,000) partitions.
 \end{figure}
