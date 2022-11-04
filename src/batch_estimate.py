@@ -27,7 +27,6 @@ x_train, y_train = load_mnist_data(
 )
 x_test, y_test = load_mnist_data(
 	file_path="src/data/mnist_test.csv",
-	nrows=100,
 )
 
 base_spec = {
