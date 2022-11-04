@@ -39,7 +39,7 @@ base_spec = {
 	"bias": False,
 }
 
-for hl in [14, 28, 56, 112]:
+for hl in [2, 4, 8, 14, 28, 56, 112]:
 	for bias in [True, False]:
 		spec = base_spec
 		if bias:
