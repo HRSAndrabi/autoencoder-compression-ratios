@@ -1,51 +1,40 @@
 \begin{table}[h]
-\caption{Trading strategy performance summary metrics \label{table:performance}}
-    \centering
-\begin{tabular}{lrrr}
+\caption{Average mean-squared error (MSE) for reconstructed images \label{table:mse-final}}
+\centering
+\begin{tabular}{lrrrr}
 \toprule
-Metric &  core\_distraction & related\_distraction & unrelated\_distraction \\
+Model &  MSE  \\
 \midrule
 \addlinespace{}
-\parbox{4.5cm}{Total Trades } & 1362 & 1335 & 1319 \\
+\parbox{12.5cm}{Compression ratio: 392} & 0.0621 \\
 \addlinespace{}
-Average Win & 1.28\% & 1.10\% & 0.96\% \\
+Compression ratio: 392 (bias) & 0.0665 \\
 \addlinespace{}
-Average Loss & -1.26\% & -1.27\% & -1.38\% \\
+Compression ratio: 196 & 0.0548 \\
 \addlinespace{}
-Compounding Annual Return & 12.835\% & 7.653\% & 7.444\% \\
+Compression ratio: 196 (bias) & 0.0585 \\
 \addlinespace{}
-Drawdown & 42.500\% & 53.000\% & 36.000\% \\
+Compression ratio: 98 & 0.0515 \\
 \addlinespace{}
-Expectancy & 0.181 & 0.127 & 0.119 \\
+Compression ratio: 98 (bias) & 0.0550 \\
 \addlinespace{}
-Net Profit & 381.058\% & 160.983\% & 154.452\% \\
+Compression ratio: 49 & 0.0494 \\
 \addlinespace{}
-Sharpe Ratio & 0.5 & 0.346 & 0.367 \\
+Compression ratio: 49 (bias) & 0.0492 \\
 \addlinespace{}
-Probabilistic Sharpe Ratio & 1.146\% & 0.200\% & 0.260\% \\
+Compression ratio: 24.5 & 0.0371 \\
 \addlinespace{}
-Loss Rate & 41\% & 40\% & 34\% \\
+Compression ratio: 24.5 (bias) & 0.0421 \\
 \addlinespace{}
-Win Rate & 59\% & 60\% & 66\% \\
+Compression ratio: 12.25 & 0.0195 \\
 \addlinespace{}
-Profit-Loss Ratio & 1.01 & 0.87 & 0.70 \\
+Compression ratio: 12.25 (bias) & 0.0183 \\
 \addlinespace{}
-Annual Standard Deviation & 0.235 & 0.243 & 0.192 \\
+Compression ratio: 6.125 & 0.0107 \\
 \addlinespace{}
-Annual Variance & 0.055 & 0.059 & 0.037 \\
-\addlinespace{}
-Information Ratio & 0.226 & 0.055 & -0.012 \\
-\addlinespace{}
-Tracking Error & 0.199 & 0.207 & 0.18 \\
-\addlinespace{}
-Treynor Ratio & 0.144 & 0.101 & 0.119 \\
-\addlinespace{}
-Total Fees & \$8856.61 & \$6991.93 & \$6306.68 \\
+Compression ratio: 6.125 (bias) & 0.0067 \\
 \bottomrule
 \addlinespace[1em]
 \end{tabular}
-\parbox{14.5cm}{\textbf{Notes}: Trading strategy performance metrics across backtesting window from 1 January 2010 to 31 December 2019. `core\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement.
-`related\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in the same industry sector as the originating asset of the target announcement. 
-`unrelated\_distraction' refers to a trading strategy that classifies distracting information as the total number of competing announcements on the same day as the target announcement, and in a different industry sector as the originating asset of the target announcement. 
-}
+\parbox{14.5cm}{\textbf{Notes}: Average mean squared error (MSE) across validation partition of MNIST dataset (N=10,000) for reconstructed images. Average MSE is calculated after training models for 50 epochs.}
 \end{table}
