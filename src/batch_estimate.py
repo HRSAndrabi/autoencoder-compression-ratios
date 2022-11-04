@@ -51,7 +51,7 @@ for hl in [2, 4, 8, 14, 28, 56, 112]:
 		model = AutoEncoder(spec, 0.01)
 		model.train(
 			train_instances=x_train, 
-			test_instances=x_train, 
+			test_instances=x_test, 
 			epochs=50
 		)
 		model.save(dir_path="./src/models/")
