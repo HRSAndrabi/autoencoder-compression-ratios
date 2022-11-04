@@ -1,2 +1,5 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Examples of MNIST instances\relax }}{6}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of classes in MNIST dataset\relax }}{6}{figure.caption.4}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Examples of MNIST instances\relax }}{7}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of classes in MNIST dataset\relax }}{7}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Illustrative autoencoder architecture, without bias\relax }}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Illustrative autoencoder architecture, with bias\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Reconstruction mean-squared error throughout training phase, disaggregated by network architecture\relax }}{10}{figure.caption.7}%

@@ -3,3 +3,7 @@ Autoencoders
 non-probabalistic
 backpropogation
 autoencoders
+MNIST
+autoencoding
+parameterisations
+parameterisation

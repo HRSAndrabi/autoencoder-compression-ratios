@@ -12,3 +12,27 @@
 \includegraphics[width=1.0\textwidth]{graphics/class_distribution.pdf}
     \textbf{Notes}: Class distribution of digit instances (0 - 9) in the full MNIST dataset, across both training (N=60,000) and validation (N=10,000) partitions.
 \end{figure}
+\efloatseparator
+ 
+\begin{figure}
+    \caption{Illustrative autoencoder architecture, without bias}
+\label{fig:autoencoder-diagram}
+\includegraphics[width=1.0\textwidth]{graphics/autoencoder_diagram.pdf}
+    \textbf{Notes}: Input and output layers each contain 784 nodes respectively, in congruence with the dimensions of MNIST image instance vectors. Intermediate nodes are omitted for ease of interpretability. Hidden layers contain a variable number of nodes, $N$, varied across seven values: 2, 4, 8, 16, 32, 64, and 128. Encoding of inputs occurs through weighting of activations between input and hidden layers. Image reconstruction occurs through weighting of activations between hidden and output layers.
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+    \caption{Illustrative autoencoder architecture, with bias}
+\label{fig:autoencoder-diagram-bias}
+\includegraphics[width=1.0\textwidth]{graphics/autoencoder_diagram_bias.pdf}
+    \textbf{Notes}: Input and output layers each contain 784 nodes respectively, in congruence with the dimensions of MNIST image instance vectors. Intermediate nodes are omitted for ease of interpretability. Hidden layers contain a variable number of nodes, $N$, varied across seven values: 2, 4, 8, 16, 32, 64, and 128. A  constant bias affects activations in hidden and output nodes differentially through learned bias weights. Encoding of inputs occurs through weighting of activations between input and hidden layers. Image reconstruction occurs through weighting of activations between hidden and output layers.
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+    \caption{Reconstruction mean-squared error throughout training phase, disaggregated by network architecture}
+\label{fig:training-loss}
+\includegraphics[width=1.0\textwidth]{graphics/model_loss.pdf}
+    \textbf{Notes}: Mean-squared error (MSE) of autoencoder networks across validation partition of MNIST dataset. MSE was calculated through forward propogation of MNIST validation instances (N=10,000) using trained weights at each discrete training timestep. Learning rate for each model was set at 0.01.
+\end{figure}
