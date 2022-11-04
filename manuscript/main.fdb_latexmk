@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1667546593 "main.aux" "main.bbl" "main" 1667558818
+["bibtex main"] 1667546593 "main.aux" "main.bbl" "main" 1667571803
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1667558818 5166 85e99fda84d23fe2f676522caacccea3 "pdflatex"
+  "main.aux" 1667571803 5166 85e99fda84d23fe2f676522caacccea3 "pdflatex"
   "main.bib" 1667527531 1612 c37f1982db8942bc259b8f4a8dfde069 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1667558817 "/Users/h.andrabi/Documents/study/uni/phd/1/RANN/assignments/RANN-research-report/manuscript/main.tex" "main.pdf" "main" 1667558818
+["pdflatex"] 1667571802 "/Users/h.andrabi/Documents/study/uni/phd/1/RANN/assignments/RANN-research-report/manuscript/main.tex" "main.pdf" "main" 1667571803
   "/Users/h.andrabi/Documents/study/uni/phd/1/RANN/assignments/RANN-research-report/manuscript/main.tex" 1667536560 1550 1291d33f72a3ef9e2faaf1f0304bdff0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -120,18 +120,18 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "graphics/autoencoder_diagram.pdf" 1667533121 91239 f401c1c964cbefa3f349694f749f56d5 ""
   "graphics/autoencoder_diagram_bias.pdf" 1667533108 95004 0371b719bd7306e152d309a25aef1dea ""
-  "graphics/class_distribution.pdf" 1667530380 33485 be5b1560d7e0e24d1e2a8abafb3b7abf ""
+  "graphics/class_distribution.pdf" 1667571802 33536 d1fde43390b7c70f5719490f02cad5c9 ""
   "graphics/decoded_instances.pdf" 1667543444 191564 362a00c0d7dfdd943041cb0bb24de2b5 ""
   "graphics/decoded_instances_bias.pdf" 1667543451 192777 f35ab0591c48634f3725da6484443254 ""
-  "graphics/instance_examples.pdf" 1667530171 16695 8147d9c4550a9bd192f49e567c120b33 ""
+  "graphics/instance_examples.pdf" 1667571758 16695 c285a0d68b9e4bc2c2d1615ec2af3496 ""
   "graphics/model_loss.pdf" 1667539325 85772 75d706361a8017cea27222f8bc2f44c7 ""
-  "main.aux" 1667558818 5166 85e99fda84d23fe2f676522caacccea3 "pdflatex"
+  "main.aux" 1667571803 5166 85e99fda84d23fe2f676522caacccea3 "pdflatex"
   "main.bbl" 1667546593 1932 d2a43731699c8e279ee756d62acafefa "bibtex main"
-  "main.fff" 1667558818 4220 b60faa54ea415367e4b267ef80d2f4ef "pdflatex"
-  "main.lof" 1667558818 1017 5389c641b245813267a9c435ebc43432 "pdflatex"
-  "main.lot" 1667558818 143 1f4ad5a7e53716a03eeb4febf7ddfd7f "pdflatex"
+  "main.fff" 1667571803 4220 b60faa54ea415367e4b267ef80d2f4ef "pdflatex"
+  "main.lof" 1667571803 1017 5389c641b245813267a9c435ebc43432 "pdflatex"
+  "main.lot" 1667571803 143 1f4ad5a7e53716a03eeb4febf7ddfd7f "pdflatex"
   "main.tex" 1667536560 1550 1291d33f72a3ef9e2faaf1f0304bdff0 ""
-  "main.ttt" 1667558818 1232 027603aafc517dcdcad94dcd134b3527 "pdflatex"
+  "main.ttt" 1667571803 1232 027603aafc517dcdcad94dcd134b3527 "pdflatex"
   "sections/abstract.tex" 1667460858 403 ba5f419626cfe537fbdfc3db4a7e905b ""
   "sections/conclusion.tex" 1667460866 396 4e91f11cb98025790015fe6e1aa21968 ""
   "sections/dataset.tex" 1667538248 2217 030bd612327d0ba8da2e2507e72be957 ""
