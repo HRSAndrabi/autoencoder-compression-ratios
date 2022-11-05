@@ -31,7 +31,7 @@ As the autoencoder progresses through the training phase, $E_{\phi}$ and $D_{\ph
 To evaluate the role of compression and bias hyperparameters in autoencoder network architectures, the analysis in this note adopts a fundamentally simple experimental framework.
 A generic autoencoder architecture is implemented, consisting of an input layer with 784 nodes; a single fully-connected hidden layer with a variable number of nodes; and an output layer with 784 nodes.
 A Sigmoid activation function is used to calculate activations in hidden and output nodes. 
-To assess the role of compression ratios in reconstruction performance, the number of nodes in the hidden layer is varied across seven values: 2, 4, 8, 16, 32, 64, and 128.
+To assess the role of compression ratios in reconstruction performance, the number of nodes in the hidden layer is varied across seven values: 2, 4, 8, 14, 28, 56, and 112.
 This generates seven distinct autoencoder architectures, with corresponding compression ratios of 392x, 196x, 98x, 49x, 24.5x, 12.25x, and 6.125x respectively.
 Each architecture is modelled twice: once with the inclusion of a constant bias unit, and once with bias set to zero.
 Figures \ref{fig:autoencoder-diagram} and \ref{fig:autoencoder-diagram-bias} present diagrams of the generic autoencoder architecture with bias units set to zero and one respectively.
@@ -44,17 +44,17 @@ Traces of MSE for each model architecture throughout the training phase are pres
 
 
 \begin{figure}
-    \caption{Illustrative autoencoder architecture, without bias}
+    \caption{Generic autoencoder architecture, without bias}
 	\label{fig:autoencoder-diagram}
 	\includegraphics[width=1.0\textwidth]{graphics/autoencoder_diagram.pdf}
-    \textbf{Notes}: Input and output layers each contain 784 nodes respectively, in congruence with the dimensions of MNIST image instance vectors. Intermediate nodes are omitted for ease of interpretability. Hidden layers contain a variable number of nodes, $N$, varied across seven values: 2, 4, 8, 16, 32, 64, and 128. Encoding of inputs occurs through weighting of activations between input and hidden layers. Image reconstruction occurs through weighting of activations between hidden and output layers.
+    \textbf{Notes}: Input and output layers each contain 784 nodes respectively, in congruence with the dimensions of MNIST image instance vectors. Intermediate nodes are omitted for ease of interpretability. Hidden layers contain a variable number of nodes, $N$, varied across seven values: 2, 4, 8, 14, 28, 56, and 112. Encoding of inputs occurs through weighting of activations between input and hidden layers. Image reconstruction occurs through weighting of activations between hidden and output layers.
 \end{figure}
 
 \begin{figure}
-    \caption{Illustrative autoencoder architecture, with bias}
+    \caption{Generic autoencoder architecture, with bias}
 	\label{fig:autoencoder-diagram-bias}
 	\includegraphics[width=1.0\textwidth]{graphics/autoencoder_diagram_bias.pdf}
-    \textbf{Notes}: Input and output layers each contain 784 nodes respectively, in congruence with the dimensions of MNIST image instance vectors. Intermediate nodes are omitted for ease of interpretability. Hidden layers contain a variable number of nodes, $N$, varied across seven values: 2, 4, 8, 16, 32, 64, and 128. A  constant bias affects activations in hidden and output nodes differentially through learned bias weights. Encoding of inputs occurs through weighting of activations between input and hidden layers. Image reconstruction occurs through weighting of activations between hidden and output layers. 
+    \textbf{Notes}: Input and output layers each contain 784 nodes respectively, in congruence with the dimensions of MNIST image instance vectors. Intermediate nodes are omitted for ease of interpretability. Hidden layers contain a variable number of nodes, $N$, varied across seven values: 2, 4, 8, 14, 28, 56, and 112. A  constant bias affects activations in hidden and output nodes differentially through learned bias weights. Encoding of inputs occurs through weighting of activations between input and hidden layers. Image reconstruction occurs through weighting of activations between hidden and output layers. 
 \end{figure}
 
 \begin{figure}
