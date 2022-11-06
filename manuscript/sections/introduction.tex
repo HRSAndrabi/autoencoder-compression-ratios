@@ -6,19 +6,20 @@ Ours is the age of information: where digital data is ubiquitous, and computatio
 In this climate, a fundamental problem persists in the efficient management of data to limit the computational expense of information storage and exchange.
 % Indeed, the speed at which information can be exchanged is constrained by the limits of our computational systems, and the ingenuity of data-management techniques to reduce the computational expense of information exchange.
 On this account, data-compression techniques seek to alleviate the computational burden of sending and storing digital information by compressing data to representations of reduced size.
-In particular, practical applications of such techniques can be broadly divided as employing either lossless, or lossy compression.
-Lossless techniques comprise the more common class of compression algorithms, which target perfect reconstruction of input data from compressed formats.
+Practical applications of such techniques can be broadly divided as employing either lossless, or lossy compression.
+Lossless techniques comprise the more common class of compression algorithms, which enable perfect reconstruction of input data from compressed formats.
 While such techniques offer uncompromised data-accuracy between compressed and uncompressed formats, recent reports show that practical applications rarely achieve compression ratios in excess of two- to four-times the size of the original data \cite{mittal2015survey}.
 On the other hand, lossy data-compression techniques are able to achieve exceptionally high compression ratios at the expense of degraded data accuracy.
-High compression-ratios substantially lower file sizes, and thereby reduce the computational expense of storing and sending information. 
-Accordingly, in scenarios where speed of information exchange is paramount and minor degradation in data-accuracy is unlikely to be noticed by end-users (such as in the case of image-based exchanges), lossy compression becomes an attractive approach. 
+High compression-ratios enable smaller file sizes, and thereby reduce the computational expense of storing and sending information. 
+Accordingly, in scenarios where speed of information exchange outweighs minor degradation in data-accuracy (such as in the case of multimedia messaging), lossy compression becomes an attractive approach. 
 
-To this end, among the most successful non-probabalistic approaches to lossy compression is through the use of autoencoder networks.
+To this end, among the most successful non-probabalistic approaches to lossy compression occur through the use of autoencoder networks.
 Autoencoders are representation-learning applications of unsupervised artificial neural networks (ANNs), that seek to learn mappings of high-dimensional data to meaningful lower-dimensional representations.
-By learning fundamental representations of data, autoencoders enable fast transformation between highly compressed and uncompressed formats, and thereby enable storage and exchange of large files in compressed and computationally inexpensive formats.
+By learning fundamental representations of data, autoencoders enable fast transformation of data between highly compressed and uncompressed formats.
+This, in turn, enables computationally inexpensive storage and exchange of large files.
 Indeed, several works demonstrate the ability of autoencoders to learn compressed representations of image data, with promising reconstruction accuracy \cite{cheng2018deep, toderici2017full, balle2016end}.
-Despite the interest autoencoder networks have generated, little  documentation of the effect of variation in model hyperparameters has emerged to this date.
-Recognising this, the analysis in this note seeks to evaluate the reconstruction accuracy of various autoencoder network architectures to image compression of high-dimensional image data. 
+Despite the interest autoencoder networks have generated, little  empirical evidence on the effect of variation in model hyperparameters has emerged to this date.
+Recognising this, the analysis in this note seeks to evaluate the reconstruction accuracy of various autoencoder network architectures for image compression of high-dimensional image data. 
 To this end, the present analysis will investigate variations in reconstruction-error resulting from modifications to compression-ratios enforced by the autoencoder, and inclusion or exclusion of bias nodes in the network. In particular, the analysis will address the following research questions:
 
 \begin{itemize}
