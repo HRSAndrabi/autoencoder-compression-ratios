@@ -1,5 +1,11 @@
 # RANN research paper submission
 
+## Submission details
+
+Author: Hassan Andrabi
+
+Student ID: 913838
+
 ## Repository overview
 
 This repository contains an analysis of autoencoder network architectures to compress and accurately reconstruct high-dimensional images of handwritten digits.
