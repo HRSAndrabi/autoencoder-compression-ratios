@@ -1,0 +1,24 @@
+% Intution of the autoencoder
+
+While conceptually simple, autoencoders are capable of learning powerful representations of high-dimensional input data. 
+The general intuition underpinning autoencoder networks is as follows: for an arbitrary high-dimensional input, $x$, an autoencoder first attempts to encode the dimensions of the input instance to a lower-dimensional space through a learned mapping, $E_{\phi}$, such that the encoded message, $z$, is given by:
+\begin{align}
+	z 	&= E_{\phi}(x) \\
+		&= \sigma(W_{E}x + b_{E}),
+\end{align}
+where $\sigma$ is an activation function, such as a Sigmoid function, $W_{E}$ is a matrix of incrementally trained encoding weights, and $b_{E}$ is a vector of incrementally trained encoding bias parameters.
+The ratio between the respective dimensions of the input instance, $x$, and the encoded lower-dimensional representation, $z$, represents the \textit{compression ratio} of the model. 
+
+Thereafter, the autoencoder attempts to reconstruct the original high-dimensional representation from the encoded message, $z$, through a concurrently learned mapping, $D_{\phi}$, such that the reconstructed representation, $x'$, is given by:
+\begin{align}
+	x' 	&= D_{\phi}(z)  \\
+		&= \sigma(W_{D}z + b_{D}),
+\end{align}
+where $W_{D}$ is a matrix of incrementally trained decoding weights, and $b_{D}$ is a vector of incrementally trained decoding bias parameters.
+The accuracy of the reconstructed image, $x'$ is thereafter compared to the original high-dimensional input, $x$, by way of a loss function, $\epsilon$. 
+Mean squared error (MSE) is a common choice of loss function in autoencoder networks, such that the loss, $\epsilon$, is given by:
+\begin{align}
+	\epsilon 	&= \frac{1}{N}\sum^{N}_{i=1}(x_{i} - x'_{i})^2,
+\end{align}
+where $N$ is the number of instances in the training partition of the dataset. 
+As the autoencoder progresses through the training phase, $E_{\phi}$ and $D_{\phi}$ are incrementally learned through backpropogation of reconstruction error.

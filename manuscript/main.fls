@@ -748,6 +748,16 @@ INPUT ./sections/introduction.tex
 INPUT sections/introduction.tex
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./sections/autoencoder-intution.tex
+INPUT ./sections/autoencoder-intution.tex
+INPUT ./sections/autoencoder-intution.tex
+INPUT sections/autoencoder-intution.tex
+INPUT ./sections/autoencoder-intution.tex
+INPUT ./sections/autoencoder-intution.tex
+INPUT sections/autoencoder-intution.tex
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./sections/dataset.tex
 INPUT ./sections/dataset.tex
 INPUT ./sections/dataset.tex
@@ -756,8 +766,6 @@ INPUT ./sections/dataset.tex
 INPUT ./sections/dataset.tex
 INPUT sections/dataset.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT main.fff
 INPUT ./sections/experimental-method.tex
 INPUT ./sections/experimental-method.tex
@@ -766,8 +774,6 @@ INPUT sections/experimental-method.tex
 INPUT ./sections/experimental-method.tex
 INPUT ./sections/experimental-method.tex
 INPUT sections/experimental-method.tex
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex
 INPUT ./sections/results.tex
