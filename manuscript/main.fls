@@ -835,6 +835,11 @@ INPUT ./graphics/decoded_instances_bias.pdf
 INPUT graphics/decoded_instances_bias.pdf
 INPUT ./graphics/decoded_instances_bias.pdf
 INPUT ./graphics/decoded_instances_bias.pdf
+INPUT ./graphics/mse_by_class.pdf
+INPUT ./graphics/mse_by_class.pdf
+INPUT graphics/mse_by_class.pdf
+INPUT ./graphics/mse_by_class.pdf
+INPUT ./graphics/mse_by_class.pdf
 INPUT ./main.lot
 INPUT main.lot
 INPUT main.lot
@@ -854,6 +859,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
