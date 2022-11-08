@@ -1,8 +1,8 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Examples of MNIST instances\relax }}{7}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of classes in MNIST dataset\relax }}{7}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Generic autoencoder architecture, without bias\relax }}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Generic autoencoder architecture, with bias\relax }}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Reconstruction mean-squared error throughout training phase, disaggregated by network architecture\relax }}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Reconstructed instances disaggregated by compression ratio (no bias units)\relax }}{11}{figure.caption.8}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Reconstructed instances disaggregated by compression ratio (including bias units)\relax }}{12}{figure.caption.9}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Mean-squared error (MSE) for reconstructed images disaggregated by MNIST class\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Examples of MNIST instances\relax }}{8}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of classes in MNIST dataset\relax }}{8}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Generic autoencoder architecture, without bias\relax }}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Generic autoencoder architecture, with bias\relax }}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Reconstruction mean-squared error throughout training phase, disaggregated by network architecture\relax }}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Reconstructed instances disaggregated by compression ratio (no bias units)\relax }}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Reconstructed instances disaggregated by compression ratio (including bias units)\relax }}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Mean-squared error (MSE) for reconstructed images disaggregated by MNIST class\relax }}{14}{figure.caption.10}%

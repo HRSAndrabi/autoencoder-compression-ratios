@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.28)  8 NOV 2022 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.28)  8 NOV 2022 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,14 +326,7 @@ LaTeX Info: Redefining \] on input line 2939.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./main.aux
-
-LaTeX Warning: Label `fig:decoded-instances' multiply defined.
-
-
-LaTeX Warning: Label `fig:decoded-instances' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -435,23 +428,23 @@ Package caption Info: End \AtBeginDocument code.
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/autoencoder-intution.tex [2]) (./sections/dataset.tex
 \openout3 = `main.fff'.
 
- (main.fff)) (./sections/experimental-method.tex [3]) (./sections/results.tex
+ (main.fff)) (./sections/experimental-method.tex [3]) (./sections/results.tex [4]
 \openout4 = `main.ttt'.
 
- (main.ttt)) (./sections/conclusion.tex) [4] (./main.bbl) AED endfloat: Processing end Figures and Tables [5] (./main.lof)
+ (main.ttt)) (./sections/conclusion.tex) [5] (./main.bbl) AED endfloat: Processing end Figures and Tables [6] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [6
+ [7
 
 
 ] (./main.fff
-<graphics/instance_examples.pdf, id=97, 498.8046pt x 170.91855pt>
+<graphics/instance_examples.pdf, id=107, 498.8046pt x 170.91855pt>
 File: graphics/instance_examples.pdf Graphic file (type pdf)
 <use graphics/instance_examples.pdf>
 Package pdftex.def Info: graphics/instance_examples.pdf  used on input line 4.
 (pdftex.def)             Requested size: 397.485pt x 136.20558pt.
-<graphics/class_distribution.pdf, id=98, 558.69917pt x 203.33546pt>
+<graphics/class_distribution.pdf, id=108, 558.69917pt x 203.33546pt>
 File: graphics/class_distribution.pdf Graphic file (type pdf)
 <use graphics/class_distribution.pdf>
 Package pdftex.def Info: graphics/class_distribution.pdf  used on input line 12.
@@ -459,7 +452,7 @@ Package pdftex.def Info: graphics/class_distribution.pdf  used on input line 12.
 
 
 pdfTeX warning: pdflatex (file ./graphics/autoencoder_diagram.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<graphics/autoencoder_diagram.pdf, id=99, 1222.41692pt x 744.7303pt>
+<graphics/autoencoder_diagram.pdf, id=109, 1222.41692pt x 744.7303pt>
 File: graphics/autoencoder_diagram.pdf Graphic file (type pdf)
 <use graphics/autoencoder_diagram.pdf>
 Package pdftex.def Info: graphics/autoencoder_diagram.pdf  used on input line 20.
@@ -467,27 +460,27 @@ Package pdftex.def Info: graphics/autoencoder_diagram.pdf  used on input line 20
 
 
 pdfTeX warning: pdflatex (file ./graphics/autoencoder_diagram_bias.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<graphics/autoencoder_diagram_bias.pdf, id=100, 1222.41692pt x 744.7303pt>
+<graphics/autoencoder_diagram_bias.pdf, id=110, 1222.41692pt x 744.7303pt>
 File: graphics/autoencoder_diagram_bias.pdf Graphic file (type pdf)
 <use graphics/autoencoder_diagram_bias.pdf>
 Package pdftex.def Info: graphics/autoencoder_diagram_bias.pdf  used on input line 28.
 (pdftex.def)             Requested size: 397.485pt x 242.15948pt.
-<graphics/model_loss.pdf, id=101, 711.28174pt x 367.02704pt>
+<graphics/model_loss.pdf, id=111, 711.28174pt x 367.02704pt>
 File: graphics/model_loss.pdf Graphic file (type pdf)
 <use graphics/model_loss.pdf>
 Package pdftex.def Info: graphics/model_loss.pdf  used on input line 36.
 (pdftex.def)             Requested size: 397.485pt x 205.11371pt.
-<graphics/decoded_instances.pdf, id=102, 612.41597pt x 705.33868pt>
+<graphics/decoded_instances.pdf, id=112, 612.41597pt x 705.33868pt>
 File: graphics/decoded_instances.pdf Graphic file (type pdf)
 <use graphics/decoded_instances.pdf>
 Package pdftex.def Info: graphics/decoded_instances.pdf  used on input line 44.
 (pdftex.def)             Requested size: 397.485pt x 457.79744pt.
-<graphics/decoded_instances_bias.pdf, id=103, 612.41597pt x 705.33868pt>
+<graphics/decoded_instances_bias.pdf, id=113, 612.41597pt x 705.33868pt>
 File: graphics/decoded_instances_bias.pdf Graphic file (type pdf)
 <use graphics/decoded_instances_bias.pdf>
 Package pdftex.def Info: graphics/decoded_instances_bias.pdf  used on input line 52.
 (pdftex.def)             Requested size: 397.485pt x 457.79744pt.
-<graphics/mse_by_class.pdf, id=104, 634.58711pt x 743.38335pt>
+<graphics/mse_by_class.pdf, id=114, 634.58711pt x 743.38335pt>
 File: graphics/mse_by_class.pdf Graphic file (type pdf)
 <use graphics/mse_by_class.pdf>
 Package pdftex.def Info: graphics/mse_by_class.pdf  used on input line 60.
@@ -497,11 +490,11 @@ Underfull \hbox (badness 1231) in paragraph at lines 60--62
 \OT1/cmr/bx/n/10 Notes\OT1/cmr/m/n/10 : Mean squared er-ror (MSE) across val-i-da-tion par-ti-tion of MNIST dataset
  []
 
-) [7 <./graphics/instance_examples.pdf> <./graphics/class_distribution.pdf>] [8 <./graphics/autoencoder_diagram.pdf>] [9 <./graphics/autoencoder_diagram_bias.pdf>] [10 <./graphics/model_loss.pdf>] [11 <./graphics/decoded_instances.pdf>] [12 <./graphics/decoded_instances_bias.pdf>] [13 <./graphics/mse_by_class.pdf>] (./main.lot)
+) [8 <./graphics/instance_examples.pdf> <./graphics/class_distribution.pdf>] [9 <./graphics/autoencoder_diagram.pdf>] [10 <./graphics/autoencoder_diagram_bias.pdf>] [11 <./graphics/model_loss.pdf>] [12 <./graphics/decoded_instances.pdf>] [13 <./graphics/decoded_instances_bias.pdf>] [14 <./graphics/mse_by_class.pdf>] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [14
+ [15
 
 
 ] (./main.ttt
@@ -514,26 +507,22 @@ Overfull \hbox (15.07996pt too wide) in paragraph at lines 4--40
  []$ 
  []
 
-) [15
+) [16
 
-] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 13118 strings out of 478268
- 217316 string characters out of 5846347
- 605952 words of memory out of 5000000
- 31067 multiletter control sequences out of 15000+600000
+ 13121 strings out of 478268
+ 217369 string characters out of 5846347
+ 606133 words of memory out of 5000000
+ 31069 multiletter control sequences out of 15000+600000
  475456 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,10n,77p,774b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (15 pages, 839338 bytes).
+Output written on main.pdf (16 pages, 842009 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 407 compressed objects within 5 object streams
+ 45 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
