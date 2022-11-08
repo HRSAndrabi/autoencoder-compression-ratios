@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.28)  8 NOV 2022 02:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.28)  8 NOV 2022 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,11 +487,11 @@ File: graphics/decoded_instances_bias.pdf Graphic file (type pdf)
 <use graphics/decoded_instances_bias.pdf>
 Package pdftex.def Info: graphics/decoded_instances_bias.pdf  used on input line 52.
 (pdftex.def)             Requested size: 397.485pt x 457.79744pt.
-<graphics/mse_by_class.pdf, id=104, 634.58711pt x 732.13644pt>
+<graphics/mse_by_class.pdf, id=104, 634.58711pt x 743.38335pt>
 File: graphics/mse_by_class.pdf Graphic file (type pdf)
 <use graphics/mse_by_class.pdf>
 Package pdftex.def Info: graphics/mse_by_class.pdf  used on input line 60.
-(pdftex.def)             Requested size: 397.485pt x 458.60075pt.
+(pdftex.def)             Requested size: 397.485pt x 465.64568pt.
 
 Underfull \hbox (badness 1231) in paragraph at lines 60--62
 \OT1/cmr/bx/n/10 Notes\OT1/cmr/m/n/10 : Mean squared er-ror (MSE) across val-i-da-tion par-ti-tion of MNIST dataset
@@ -530,7 +530,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,10n,77p,774b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (15 pages, 839298 bytes).
+Output written on main.pdf (15 pages, 839338 bytes).
 PDF statistics:
  664 PDF objects out of 1000 (max. 8388607)
  399 compressed objects within 4 object streams
